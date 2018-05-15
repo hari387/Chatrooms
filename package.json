@@ -1,0 +1,28 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "A chat system for all chats of all kind to take place. Rooms are case sensitive.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Chatrooms"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "socket",
+    "rooms",
+    "chat"
+  ],
+  "author": "Narahari Rao",
+  "license": "ISC"
+}

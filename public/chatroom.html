@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Socket IO Chatroom</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="chatroom.js"></script>
+  <style type="text/css">
+    #message {
+      position: fixed;
+      bottom: 50px;
+      width: 300px;
+    }
+    #back {
+      position: fixed;
+      bottom: 50px;
+      left: 300px;
+    }
+  </style>
+</head>
+<body>
+	<p id="chat"></p>
+  <br><br><br><br><br><br>
+	<input type="text" id="message"><input type="button" id="back" value="Back to Room Selection">
+</body>
+</html>
