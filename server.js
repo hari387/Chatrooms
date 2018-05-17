@@ -31,6 +31,6 @@ io.on('connection', function(socket){
 	});
 });
 
-server.listen(port,function(){
+server.listen(process.env.PORT || port,function(){
 	console.log('Listening on: ' + port)
 });
